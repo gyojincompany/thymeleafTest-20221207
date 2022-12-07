@@ -126,4 +126,8 @@ public class HomeController {
 		return "member/login";
 	}
 	
+	@RequestMapping(value = "/content")
+	public String content() {
+		return "content";
+	}
 }
